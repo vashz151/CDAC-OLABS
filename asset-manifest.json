@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/CDAC-OLABS/static/css/main.073c9b0a.css",
-    "main.js": "/CDAC-OLABS/static/js/main.3021476e.js",
+    "main.js": "/CDAC-OLABS/static/js/main.a037661c.js",
     "index.html": "/CDAC-OLABS/index.html",
     "main.073c9b0a.css.map": "/CDAC-OLABS/static/css/main.073c9b0a.css.map",
-    "main.3021476e.js.map": "/CDAC-OLABS/static/js/main.3021476e.js.map"
+    "main.a037661c.js.map": "/CDAC-OLABS/static/js/main.a037661c.js.map"
   },
   "entrypoints": [
     "static/css/main.073c9b0a.css",
-    "static/js/main.3021476e.js"
+    "static/js/main.a037661c.js"
   ]
 }
