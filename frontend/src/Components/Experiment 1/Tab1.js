@@ -1,7 +1,5 @@
 import * as React from "react";
 import PropTypes from "prop-types";
-import { useTheme } from "@mui/material/styles";
-import AppBar from "@mui/material/AppBar";
 import Tabs from "@mui/material/Tabs";
 import Tab from "@mui/material/Tab";
 import Typography from "@mui/material/Typography";
@@ -19,7 +17,7 @@ function TabPanel(props) {
     >
       {value === index && (
         <Box sx={{ p: 3 }}>
-          <Typography>{children}</Typography>
+          <Typography component={'span'} variant={'body2'}>{children}</Typography>
         </Box>
       )}
     </div>
@@ -40,7 +38,6 @@ function a11yProps(index) {
 }
 
 export default function FullWidthTabs() {
-  const theme = useTheme();
   const [value, setValue] = React.useState(0);
 
   const handleChange = (event, newValue) => {
@@ -54,19 +51,21 @@ export default function FullWidthTabs() {
         onChange={handleChange}
         indicatorColor="secondary"
         textColor="secondary"
-        variant="fullWidth"
-        aria-label="nav tabs example"
+        variant="scrollable"
+        scrollButtons
+        allowScrollButtonsMobile
+        aria-label="scrollable auto nav tabs example"
       >
-        <Tab label="Theorey" {...a11yProps(0)} />
-        <Tab label="Procedure" {...a11yProps(1)} />
-        <Tab label="Animation" {...a11yProps(2)} />
-        <Tab label="Simulator" {...a11yProps(3)} />
-        <Tab label="Self Evaluation" {...a11yProps(4)} />
-        <Tab label="Reference" {...a11yProps(5)} />
-        <Tab label="Feedback" {...a11yProps(6)} />
+        <Tab label="Theorey" {...a11yProps(7)} />
+        <Tab label="Procedure" {...a11yProps(8)} />
+        <Tab label="Animation" {...a11yProps(9)} />
+        <Tab label="Simulator" {...a11yProps(10)} />
+        <Tab label="Self Evaluation" {...a11yProps(11)} />
+        <Tab label="Reference" {...a11yProps(12)} />
+        <Tab label="Feedback" {...a11yProps(13)} />
       </Tabs>
-      <TabPanel value={value} index={0} dir={theme.direction}></TabPanel>
-      <TabPanel value={value} index={1} dir={theme.direction}></TabPanel>
+      <TabPanel value={value} index={7}></TabPanel>
+      <TabPanel value={value} index={8}></TabPanel>
     </Box>
   );
 }
