@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/CDAC%20OLABS/static/css/main.073c9b0a.css",
+    "main.js": "/CDAC%20OLABS/static/js/main.3021476e.js",
+    "index.html": "/CDAC%20OLABS/index.html",
+    "main.073c9b0a.css.map": "/CDAC%20OLABS/static/css/main.073c9b0a.css.map",
+    "main.3021476e.js.map": "/CDAC%20OLABS/static/js/main.3021476e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.3021476e.js"
+  ]
+}
