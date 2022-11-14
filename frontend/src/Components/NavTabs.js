@@ -65,7 +65,7 @@ export default function FullWidthTabs() {
         </Tabs>
       </Box>
       <TabPanel value={value} index={0}>
-        <h1>Theorem 1</h1>
+        <h1>Triangle Inequality Theorem</h1>
         <Tab1 />
       </TabPanel>
       <TabPanel value={value} index={1}>

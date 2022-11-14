@@ -4,6 +4,8 @@ import Tabs from "@mui/material/Tabs";
 import Tab from "@mui/material/Tab";
 import Typography from "@mui/material/Typography";
 import Box from "@mui/material/Box";
+import Theory from "./Theory";
+import Procedure from "./Procedure";
 function TabPanel(props) {
   const { children, value, index, ...other } = props;
 
@@ -17,7 +19,9 @@ function TabPanel(props) {
     >
       {value === index && (
         <Box sx={{ p: 3 }}>
-          <Typography component={'span'} variant={'body2'}>{children}</Typography>
+          <Typography component={"span"} variant={"body2"}>
+            {children}
+          </Typography>
         </Box>
       )}
     </div>
@@ -56,16 +60,25 @@ export default function FullWidthTabs() {
         allowScrollButtonsMobile
         aria-label="scrollable auto nav tabs example"
       >
-        <Tab label="Theorey" {...a11yProps(7)} />
-        <Tab label="Procedure" {...a11yProps(8)} />
-        <Tab label="Animation" {...a11yProps(9)} />
-        <Tab label="Simulator" {...a11yProps(10)} />
-        <Tab label="Self Evaluation" {...a11yProps(11)} />
-        <Tab label="Reference" {...a11yProps(12)} />
-        <Tab label="Feedback" {...a11yProps(13)} />
+        <Tab label="Theorey" {...a11yProps(0)} />
+        <Tab label="Procedure" {...a11yProps(1)} />
+        <Tab label="Animation" {...a11yProps(2)} />
+        <Tab label="Simulator" {...a11yProps(3)} />
+        <Tab label="Self Evaluation" {...a11yProps(4)} />
+        <Tab label="Reference" {...a11yProps(5)} />
+        <Tab label="Feedback" {...a11yProps(6)} />
       </Tabs>
-      <TabPanel value={value} index={7}></TabPanel>
-      <TabPanel value={value} index={8}></TabPanel>
+      <TabPanel value={value} index={0}>
+        <Theory />
+      </TabPanel>
+      <TabPanel value={value} index={1}>
+        <Procedure />
+      </TabPanel>
+      <TabPanel value={value} index={2}></TabPanel>
+      <TabPanel value={value} index={3}></TabPanel>
+      <TabPanel value={value} index={4}></TabPanel>
+      <TabPanel value={value} index={5}></TabPanel>
+      <TabPanel value={value} index={6}></TabPanel>
     </Box>
   );
 }
