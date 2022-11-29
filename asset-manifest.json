@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/CDAC-OLABS/static/css/main.746efef6.css",
-    "main.js": "/CDAC-OLABS/static/js/main.641019ba.js",
+    "main.js": "/CDAC-OLABS/static/js/main.b72bcaee.js",
     "static/media/Picture2.png": "/CDAC-OLABS/static/media/Picture2.b3cb9614ba4cf3d42079.png",
     "static/media/Picture5.png": "/CDAC-OLABS/static/media/Picture5.27e6e9c6fdc1ac28ee5e.png",
     "static/media/Picture1.png": "/CDAC-OLABS/static/media/Picture1.6425c54170379ea2a788.png",
     "static/media/Picture3.png": "/CDAC-OLABS/static/media/Picture3.3ffb04a2faac375e142c.png",
     "index.html": "/CDAC-OLABS/index.html",
     "main.746efef6.css.map": "/CDAC-OLABS/static/css/main.746efef6.css.map",
-    "main.641019ba.js.map": "/CDAC-OLABS/static/js/main.641019ba.js.map"
+    "main.b72bcaee.js.map": "/CDAC-OLABS/static/js/main.b72bcaee.js.map"
   },
   "entrypoints": [
     "static/css/main.746efef6.css",
-    "static/js/main.641019ba.js"
+    "static/js/main.b72bcaee.js"
   ]
 }
