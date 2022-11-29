@@ -3,7 +3,6 @@
 }
 .fig {
   width: 40%;
- 
 }
 @media screen and (max-width: 600px) {
   .proof {
@@ -13,6 +12,15 @@
   }
   .fig {
     width: 100%;
-      margin-left: 0;
+    margin-left: 0;
   }
+}
+table,
+th,
+td {
+  border: 2px solid rgb(121, 32, 121);
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
 }
