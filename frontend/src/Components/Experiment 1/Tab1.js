@@ -6,6 +6,7 @@ import Typography from "@mui/material/Typography";
 import Box from "@mui/material/Box";
 import Theory from "./Theory";
 import Procedure from "./Procedure";
+import Simulator from "./Simulator";
 function TabPanel(props) {
   const { children, value, index, ...other } = props;
 
@@ -75,7 +76,9 @@ export default function FullWidthTabs() {
         <Procedure />
       </TabPanel>
       <TabPanel value={value} index={2}></TabPanel>
-      <TabPanel value={value} index={3}></TabPanel>
+      <TabPanel value={value} index={3}>
+        <Simulator />
+      </TabPanel>
       <TabPanel value={value} index={4}></TabPanel>
       <TabPanel value={value} index={5}></TabPanel>
       <TabPanel value={value} index={6}></TabPanel>
