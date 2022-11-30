@@ -268,8 +268,8 @@ function Evaluation() {
   return (
     <div>
       {/* for each question in questions do the following */}
-      {Object.keys(questions).map((question) => (
-        <div>
+      {Object.keys(questions).map((question, y) => (
+        <div key={y}>
           <h3>{questions[question].text}</h3>
           {questions[question].img ? (
             <img
@@ -280,23 +280,20 @@ function Evaluation() {
           ) : null}
           {questions[question].options.map((option) => {
             return (
-              <>
+              <div key={option.id}>
                 <input
                   type="radio"
                   disabled={showAnswer ? true : false}
                   name={question}
                   id={option.id}
-                  //assign unique keys
-                  key={option.id}
                   value={option.text}
                 />
-                {console.log(option.id)}
                 <label htmlFor={option.id} name={option.id}>
                   {" "}
                   {option.text}
                 </label>
                 <br />
-              </>
+              </div>
             );
           })}
           <button
@@ -319,7 +316,7 @@ function Evaluation() {
 
           //mark all correct options as green
           for (let i = 0; i < Object.keys(questions).length; i++) {
-            questions[Object.keys(questions)[i]].options.foreach((option) => {
+            questions[Object.keys(questions)[i]].options.map((option) => {
               if (option.isCorrect) {
                 //change color of label with option id to green
                 const elements = Array.from(
@@ -334,14 +331,13 @@ function Evaluation() {
 
           //mark all incorrect checked options as red
           for (let i = 0; i < Object.keys(questions).length; i++) {
-            questions[Object.keys(questions)[i]].options.foreach((option) => {
+            questions[Object.keys(questions)[i]].options.map((option) => {
               if (!option.isCorrect) {
                 if (document.getElementById(option.id).checked) {
                   const elements = Array.from(
                     document.getElementsByName(option.id)
                   );
                   elements.forEach((element) => {
-                    console.log(element);
                     element.style.backgroundColor = "red";
                   });
                 }
