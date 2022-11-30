@@ -267,12 +267,7 @@ function Evaluation() {
   };
   return (
     <div>
-<<<<<<< Updated upstream
-=======
-<<<<<<< HEAD
-      
-=======
->>>>>>> Stashed changes
+
       {/* for each question in questions do the following */}
       {Object.keys(questions).map((question, y) => (
         <div key={y}>
@@ -349,10 +344,7 @@ function Evaluation() {
       >
         Submit
       </button>
-<<<<<<< Updated upstream
-=======
->>>>>>> 6c721064fe745ccff12c9632c5156c1a828aaad2
->>>>>>> Stashed changes
+
     </div>
   );
 }

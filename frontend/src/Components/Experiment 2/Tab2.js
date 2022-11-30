@@ -5,6 +5,7 @@ import Tab from "@mui/material/Tab";
 import Typography from "@mui/material/Typography";
 import Box from "@mui/material/Box";
 import Theory from "./Theory";
+import Procedure from "./Procedure";
 function TabPanel(props) {
   const { children, value, index, ...other } = props;
 
@@ -68,7 +69,7 @@ export default function FullWidthTabs() {
         <Tab label="Feedback" {...a11yProps(6)} />
       </Tabs>
       <TabPanel value={value} index={0}><Theory/></TabPanel>
-      <TabPanel value={value} index={1}></TabPanel>
+      <TabPanel value={value} index={1}><Procedure/></TabPanel>
     </Box>
   );
 }
