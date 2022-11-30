@@ -316,7 +316,7 @@ function Evaluation() {
 
           //mark all correct options as green
           for (let i = 0; i < Object.keys(questions).length; i++) {
-            questions[Object.keys(questions)[i]].options.map((option) => {
+            questions[Object.keys(questions)[i]].options.forEach((option) => {
               if (option.isCorrect) {
                 //change color of label with option id to green
                 const elements = Array.from(
@@ -326,13 +326,8 @@ function Evaluation() {
                   element.style.backgroundColor = "green";
                 });
               }
-            });
-          }
-
-          //mark all incorrect checked options as red
-          for (let i = 0; i < Object.keys(questions).length; i++) {
-            questions[Object.keys(questions)[i]].options.map((option) => {
-              if (!option.isCorrect) {
+              //coloring red the wrong options marked by user
+              else {
                 if (document.getElementById(option.id).checked) {
                   const elements = Array.from(
                     document.getElementsByName(option.id)
