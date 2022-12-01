@@ -4,6 +4,11 @@ import Tabs from "@mui/material/Tabs";
 import Tab from "@mui/material/Tab";
 import Typography from "@mui/material/Typography";
 import Box from "@mui/material/Box";
+import Theory from "./Theory";
+import Procedure from "./Procedure";
+import Simulation from "./Simulation";
+import Evaluation from "./Evaluation";
+import Animation from "./Animation";
 function TabPanel(props) {
   const { children, value, index, ...other } = props;
 
@@ -58,7 +63,7 @@ export default function FullWidthTabs() {
         allowScrollButtonsMobile
         aria-label="scrollable auto nav tabs example"
       >
-        <Tab label="Theorey" {...a11yProps(0)} />
+        <Tab label="Theory" {...a11yProps(0)} />
         <Tab label="Procedure" {...a11yProps(1)} />
         <Tab label="Animation" {...a11yProps(2)} />
         <Tab label="Simulator" {...a11yProps(3)} />
@@ -66,8 +71,11 @@ export default function FullWidthTabs() {
         <Tab label="Reference" {...a11yProps(5)} />
         <Tab label="Feedback" {...a11yProps(6)} />
       </Tabs>
-      <TabPanel value={value} index={0}></TabPanel>
-      <TabPanel value={value} index={1}></TabPanel>
+      <TabPanel value={value} index={0}><Theory/></TabPanel>
+      <TabPanel value={value} index={1}><Procedure/></TabPanel>
+      <TabPanel value={value} index={2}><Animation/></TabPanel>
+      <TabPanel value={value} index={3}><Simulation/></TabPanel>
+      <TabPanel value={value} index={4}><Evaluation/></TabPanel>
     </Box>
   );
 }

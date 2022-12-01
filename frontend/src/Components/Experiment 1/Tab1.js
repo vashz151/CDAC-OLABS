@@ -62,7 +62,7 @@ export default function FullWidthTabs() {
         allowScrollButtonsMobile
         aria-label="scrollable auto nav tabs example"
       >
-        <Tab label="Theorey" {...a11yProps(0)} />
+        <Tab label="Theory" {...a11yProps(0)} />
         <Tab label="Procedure" {...a11yProps(1)} />
         <Tab label="Animation" {...a11yProps(2)} />
         <Tab label="Simulator" {...a11yProps(3)} />
