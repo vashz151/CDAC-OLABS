@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "./style.css";
+import "./eval.css";
 
 const Evaluation = () => {
   const [showResults, setShowResults] = useState(false);
@@ -69,7 +69,7 @@ const Evaluation = () => {
     setShowResults(false);
   };
   return (
-    <div style={{ textAlign: "center", fontSize:10}}>
+    <div style={{ textAlign: "center", fontSize: 17 }}>
       <h1>SELF EVALUATION QUIZ</h1>
       <h2>Current Score:{score}</h2>
       {showResults ? (
