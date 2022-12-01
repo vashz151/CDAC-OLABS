@@ -266,7 +266,7 @@ function Evaluation() {
     },
   };
   return (
-    <div>
+    <div style={{ fontSize: 20 }}>
 
       {/* for each question in questions do the following */}
       {Object.keys(questions).map((question, y) => (

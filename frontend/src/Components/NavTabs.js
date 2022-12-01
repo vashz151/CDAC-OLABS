@@ -56,7 +56,7 @@ export default function FullWidthTabs() {
           value={value}
           onChange={handleChange}
           indicatorColor="secondary"
-          textColor="secondary"
+          textColor="white"
           variant="fullWidth"
           aria-label="nav tabs example"
         >
