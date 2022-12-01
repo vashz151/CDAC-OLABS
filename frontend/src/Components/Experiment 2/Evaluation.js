@@ -93,7 +93,7 @@ const Evaluation = () => {
                 <li
                   key={option.id}
                   onClick={() => optionClicked(option.isCorrect)}
-                  className="clicked"
+                  
                 >
                   {option.text}
                 </li>
