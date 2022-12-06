@@ -6,7 +6,7 @@ import "../../CSS/fig.css";
 
 function Theory() {
   return (
-    <div>
+    <div style={{ fontSize: 20 }}>
       <h2>Objective:</h2>
       <p>
         To prove that sum of two sides of triangle is always greater than third
