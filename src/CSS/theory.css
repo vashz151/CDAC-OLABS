@@ -1,0 +1,154 @@
+.container {
+  font-size: 20px;
+  width: 90%;
+  margin-left: 40px;
+  font-family: "Times New Roman";
+}
+.highlight {
+  background-color: #ce93d8;
+  color: #000;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.highlight1 {
+  background-color: #e59027;
+  color: #000;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+.type h3 {
+  width: 40%;
+}
+img {
+  border: 2px solid #7f1c8a;
+  width: 550px;
+}
+.obj {
+  text-align: justify;
+  width: 40%;
+  float: left;
+}
+
+.figure1 {
+  float: right;
+  width: 50%;
+  margin-left: 20px;
+}
+.figure1 img {
+  margin-left: 20px;
+}
+.figure1 figcaption {
+  margin-right: 40px;
+}
+.type {
+  clear: both;
+}
+.side {
+  text-align: justify;
+  width: 40%;
+  float: left;
+  line-height: 2.6;
+}
+.figure2 {
+  padding: 4px;
+  float: right;
+  width: 50%;
+  margin-top: -20px;
+  margin-left: -30px;
+}
+.angle {
+  clear: both;
+  text-align: justify;
+  width: 40%;
+  float: left;
+  line-height: 2.6;
+}
+.figure3 {
+  padding: 4px;
+  float: right;
+  width: 50%;
+}
+figcaption {
+  font-size: 0.8em;
+  font-style: italic;
+  text-align: center;
+}
+/* media query for image width mobile  */
+@media screen and (max-width: 600px) {
+  img {
+    width: 100%;
+  }
+}
+/* style class example*/
+
+.example {
+  clear: both;
+  margin-top: -10px;
+  margin-left: 35px;
+}
+.example1,
+.example2 {
+  background-color: #1c1c1c;
+  padding: 10px 25px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  width: 40%;
+  float: left;
+  text-align: justify;
+}
+
+.example1 {
+  margin-right: 99px;
+}
+
+.example2 {
+  padding-bottom: 10px;
+}
+
+@media screen and (max-width: 600px) {
+  .type {
+    box-shadow: 0 2px 4px rgba(255, 255, 255, 0.568);
+  }
+  .type,
+  .side,
+  .angle,
+  .figure1,
+  .figure2,
+  .figure3,
+  .obj {
+    clear: both;
+    margin: 0;
+    width: 100%;
+    float: none;
+    /* White box shadow for contrast */
+  }
+  .obj {
+    background-color: #1c1c1c;
+    padding: 5px;
+  }
+  .type h3 {
+    width: 100%;
+  }
+  .container {
+    width: 100%;
+    margin: 0px;
+  }
+  .figure1 img {
+    margin: 0;
+  }
+  .example,
+  .example1,
+  .example2 {
+    clear: both;
+    width: 100%;
+    margin: 0;
+  }
+  .example1,
+  .example2 {
+    margin-bottom: 20px;
+    padding: 25px;
+    box-shadow: 0 2px 4px rgba(255, 255, 255, 0.568);
+  }
+}

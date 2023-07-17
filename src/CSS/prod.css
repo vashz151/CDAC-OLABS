@@ -1,0 +1,110 @@
+.proof {
+  width: 50%;
+  padding: 20px;
+  background-color: #1c1c1c;
+  border-radius: 15px;
+  margin-bottom: 8px;
+  font-family: "Courier New", monospace;
+  box-shadow: 0 2px 4px rgba(255, 255, 255, 0.1);
+  line-height: 1.6;
+}
+h2 {
+  color: #fff;
+  font-size: 22px; /* Adjust the font size as needed */
+  margin-bottom: 10px;
+}
+
+.fig {
+  width: 35%;
+  margin-top: -5px;
+}
+.note {
+  float: left;
+  width: 40%;
+  padding: 18px;
+  margin-left: 30px;
+  background-color: #1c1c1c;
+  border-radius: 15px;
+  font-family: "Courier New", monospace;
+  box-shadow: 0 2px 4px rgba(255, 255, 255, 0.1);
+  line-height: 1.6;
+  font-size: 14px;
+  border: 2px solid #fff;
+}
+/* Box around the proof */
+.proof-box {
+  border: 2px solid #fff;
+  padding: 15px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+/* Highlight for the "To Prove" section */
+.highlight {
+  background-color: #ce93d8; /* Blue highlight color */
+  color: #000;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+.note h2 {
+  background-color: #d00707;
+  color: #000;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+@media screen and (max-width: 600px) {
+  .proof {
+    width: 100%;
+    display: block;
+    clear: both;
+  }
+  .fig {
+    width: 100%;
+    margin-left: 0;
+  }
+  .note {
+    width: 100%;
+    margin-left: 0;
+  }
+}
+table,
+th,
+td {
+  border: 2px solid #fff;
+}
+table {
+  border-collapse: collapse;
+  text-align: left;
+  margin: 25px;
+  width: 50%;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  float: left;
+}
+th {
+  width: 20%;
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+td {
+  width: 20%;
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+.can {
+  float: left;
+  margin: 25px;
+}
+
+@media screen and (max-width: 600px) {
+  .can {
+    width: 100%;
+    margin: 0;
+    margin-bottom: 20px;
+  }
+  table {
+    width: 100%;
+    margin: 0;
+    margin-bottom: 20px;
+  }
+}
