@@ -1,0 +1,24 @@
+figcaption {
+  color: white;
+  font-style: italic;
+  padding: 2px;
+  text-align: center;
+}
+img {
+  border: 2px #cccccc solid;
+  padding: 4px;
+  display: block;
+  margin: auto;
+  width: 50%;
+}
+/* media query for image width mobile  */
+@media screen and (max-width: 600px) {
+  img {
+    width: 100%;
+  }
+}
+/* style class example*/
+.example {
+    color: #e55b1b;
+    border-radius: 4px;
+}
