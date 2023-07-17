@@ -6,6 +6,7 @@ This repository contains a React web application that visually demonstrates the 
 
 ## Table of Contents
 - [Introduction](#introduction)
+- [Demo] (#demo)
 - [Installation](#installation)
 - [Usage](#usage)
 - [Contributing](#contributing)
@@ -14,6 +15,9 @@ This repository contains a React web application that visually demonstrates the 
 The Triangle Inequality Theorem is a crucial concept in geometry that is often used to determine whether a given set of side lengths can form a valid triangle. It helps us understand the relationship between the sides of a triangle and forms the basis for many geometric proofs.
 
 This React app provides an intuitive and interactive way to explore the Triangle Inequality Theorem. Users can input the lengths of three sides of a triangle, and the app will visually demonstrate whether the triangle is valid or not according to the theorem. Additionally, the app will display the mathematical proof of why the triangle is valid or invalid.
+
+## Demo
+The project can be viewed as (https://vashz151.github.io/CDAC-OLABS/).
 
 ## Installation
 Follow these steps to set up the Triangle Inequality Theorem React app locally on your machine:
