@@ -1,70 +1,54 @@
-# Getting Started with Create React App
+# Triangle Inequality Theorem Proof with React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![Triangle Inequality Theorem](https://d138zd1ktt9iqe.cloudfront.net/media/seo_landing_files/triangle-abc-1621326328.png)
 
-## Available Scripts
+This repository contains a React web application that visually demonstrates the **Triangle Inequality Theorem** and provides an interactive proof for this fundamental geometric principle. The Triangle Inequality Theorem states that the sum of the lengths of any two sides of a triangle must be greater than the length of the third side.
 
-In the project directory, you can run:
+## Table of Contents
+- [Introduction](#introduction)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
 
-### `npm start`
+## Introduction
+The Triangle Inequality Theorem is a crucial concept in geometry that is often used to determine whether a given set of side lengths can form a valid triangle. It helps us understand the relationship between the sides of a triangle and forms the basis for many geometric proofs.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+This React app provides an intuitive and interactive way to explore the Triangle Inequality Theorem. Users can input the lengths of three sides of a triangle, and the app will visually demonstrate whether the triangle is valid or not according to the theorem. Additionally, the app will display the mathematical proof of why the triangle is valid or invalid.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Demo
+![Demo GIF](https://example.com/demo.gif)
 
-### `npm test`
+## Installation
+Follow these steps to set up the Triangle Inequality Theorem React app locally on your machine:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. Clone this GitHub repository to your local machine using the following command:
+```bash
+git clone https://github.com/vashz151/CDAC-OLABS
+```
 
-### `npm run build`
+2. Install the required dependencies using npm (Node Package Manager):
+```bash
+npm install
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Usage
+Once you have installed all the dependencies, you can run the React app locally using the following command:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```bash
+npm start
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+The app will be accessible at `http://localhost:3000` in your web browser.
 
-### `npm run eject`
+Now, you can interact with the app by entering the lengths of three sides of a triangle. The app will provide a graphical representation of the triangle and display whether the sides form a valid triangle based on the Triangle Inequality Theorem. If the triangle is valid, the app will also display the mathematical proof.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Feel free to explore different combinations of side lengths and observe how the theorem holds true for valid triangles.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Contributing
+If you would like to contribute to this project, you're welcome to submit pull requests. Before making significant changes, please open an issue to discuss the proposed changes and ensure they align with the project's goals.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+---
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+We hope this React app provides you with a better understanding of the Triangle Inequality Theorem and its implications in geometry. If you have any questions or suggestions, please feel free to open an issue or reach out to us.
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Happy learning! 📚🔍
