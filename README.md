@@ -6,7 +6,7 @@ This repository contains a React web application that visually demonstrates the 
 
 ## Table of Contents
 - [Introduction](#introduction)
-- [Demo] (#demo)
+- [Demo](#demo)
 - [Installation](#installation)
 - [Usage](#usage)
 - [Contributing](#contributing)
